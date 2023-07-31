@@ -1,0 +1,13 @@
+body {
+    margin: 0 150px 0 150px;
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+.bg-body-tertiary {
+    background-color: #F2F2F2 !important;
+    margin-top: 50px;
+}
+.navbar-nav {
+    margin-left: auto;
+    font-family: 'Jost', sans-serif;
+}
