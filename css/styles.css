@@ -1,5 +1,5 @@
 body {
-    margin: 0 150px 0 150px;
+    margin: 0 150px;
     background-color: #F2F2F2;
     overflow-x: hidden;
 }
@@ -127,5 +127,46 @@ a {
 
 /* Section 3 */
 .section-3 {
-    margin: 150px;
+    margin: 150px 0;
+}
+.box-1 {
+    justify-content : center;
+    align-items : center;
+    display: flex;
+}
+.box-2 {
+    justify-content : center;
+    align-items : center;
+    display: flex;
+}
+.box-3 {
+    justify-content : center;
+    align-items : center;
+    display: flex;
+}
+.box-4 {
+    justify-content : center;
+    align-items : center;
+    display: flex;
+}
+.section-3-p {
+    margin-top: 20px;
+    color: #333136;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.section-3-h {
+    margin: 30px;
+    color: #333136;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    letter-spacing: 5px;
 }
