@@ -1,7 +1,7 @@
 body {
     margin: 0 150px 0 150px;
     background-color: #F2F2F2;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .bg-body-tertiary {
     background-color: #F2F2F2 !important;
@@ -10,4 +10,122 @@ body {
 .navbar-nav {
     margin-left: auto;
     font-family: 'Jost', sans-serif;
+}
+
+/* Section 1 */
+.pink-bg {
+    background-color: #E7816B;
+    margin-top: 50px;
+    border-radius: 20px;
+    height: 550px;
+    overflow: hidden;
+}
+.bg-image {
+    position: absolute;
+    width: 500px;
+}
+.image-hero-phone {
+    width: 30em;
+    position: relative;
+    margin-top: 5px;
+    float: right;
+}
+.section-1-text {
+    margin-top: 130px;
+    padding: 0 0 0 80px;
+}
+.section-1-h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 48px;
+    color: #fff;
+    font-size: 48px;
+}
+.section-1-p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    margin-top: 30px;
+    color: #fff;
+}
+.btn-light {
+    margin: 20px 0 0 0;
+    height: 50px;
+    width: 150px;
+}
+
+/* Section 2 */
+.section-2 {
+    margin-top: 130px;
+}
+.web-design-img {
+    border-radius: 20px;
+    position: absolute;
+}
+.app-design-img {
+    border-radius: 20px;
+    position: relative;
+}
+.graphic-design-img {
+    border-radius: 20px;
+    position: relative;
+    margin: 24px 0 0 0;
+}
+.web-design-h {
+    margin: 300px auto;
+    color: #fff;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+.web-design-p {
+    margin: -280px auto;
+    color: #fff;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.app-design-h {
+    margin: -200px auto;
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    width: 37%;
+    text-align: center;
+    color: #fff;
+}
+.app-design-p {
+    margin: -130px auto;
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    width: 37%;
+    text-align: center;
+    color: #fff;
+}
+.graphic-design-h {
+    margin: -200px auto;
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    width: 37%;
+    text-align: center;
+    color: #fff;
+}
+.graphic-design-p {
+    margin: -130px auto;
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    width: 35%;
+    text-align: center;
+    color: #fff;
+}
+
+/* Section 3 */
+.section-3 {
+    margin: 150px;
 }
